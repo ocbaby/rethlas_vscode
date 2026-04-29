@@ -1,0 +1,9 @@
+.vscode/.mcp-generation-venv/
+.vscode/.mcp-verification-venv/
+.claude/settings.local.json
+.claude/agent-memory-local/
+CLAUDE.local.md
+**/.DS_Store
+agents/generation/logs/
+agents/generation/memory/
+agents/verification/memory/

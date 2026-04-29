@@ -1,0 +1,24 @@
+{
+  "servers": {
+    "rethlasGenerationMcp": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/.vscode/mcp/start-python-mcp.sh",
+        ".mcp-generation-venv",
+        "${workspaceFolder}/agents/generation/mcp/server.py",
+        "${workspaceFolder}/agents/generation/mcp/requirements.txt"
+      ]
+    },
+    "rethlasVerificationMcp": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/.vscode/mcp/start-python-mcp.sh",
+        ".mcp-verification-venv",
+        "${workspaceFolder}/agents/verification/mcp/server.py",
+        "${workspaceFolder}/agents/verification/mcp/requirements.txt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Verify Proof"
+  short_description: "Verify proofs with standalone workflow"
+  default_prompt: "Use $verify-proof to run the standalone verification workflow and log the verifier's report."
+
+policy:
+  allow_implicit_invocation: true
