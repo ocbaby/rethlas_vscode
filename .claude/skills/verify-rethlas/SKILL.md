@@ -1,4 +1,5 @@
 ---
+name: verify-rethlas
 description: Run the Rethlas verification workflow for a statement and proof file in this repository
 disable-model-invocation: true
 argument-hint: problem=agents/generation/data/example.md proof=agents/generation/results/example/blueprint.md run-id=example_chat
