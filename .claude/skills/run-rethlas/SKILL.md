@@ -1,4 +1,5 @@
 ---
+name: run-rethlas
 description: Run the Rethlas generation workflow for a problem markdown file in this repository
 disable-model-invocation: true
 argument-hint: problem=agents/generation/data/example.md
